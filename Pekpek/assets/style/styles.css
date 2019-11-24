@@ -1,0 +1,126 @@
+.happy{
+    background-image: url('../images/HAPPY-PEKPEK.jpg');
+     background-repeat: no-repeat; 
+     background-position: top center;
+     background-attachment: fixed;
+     background-size: 100%;
+     border-bottom: 20px solid sandybrown;
+     border-image-slice: 1;
+}
+
+.qestuon{
+    background-color:rgba(209, 255, 249, 0.781);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0 0 70% 70%;
+}
+
+.layout-center{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.text{
+    font-family: 'Neucha', cursive;  
+    font-weight: bold;
+    font-size: 50px;
+    color: royalblue;
+}
+
+.line{
+    border-bottom:5px solid pink;
+    width: 100%;
+}
+
+.answer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.yes-btn{
+    width:100px;
+    height:100px;
+    border-radius: 60%;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    background: linear-gradient(to top left, lightgreen, green);
+    font-family: 'Neucha', cursive;  
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(0, 92, 40);
+}
+
+.no-btn{
+    width:100px;
+    height:100px;
+    border-radius: 60%;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    background: linear-gradient(to top left, rgb(255, 0, 0), rgb(255, 133, 133));
+    font-family: 'Neucha', cursive;  
+    font-weight: bold;
+    font-size: 50px;
+    color:rgb(83, 0, 0);
+    margin-left:10px;
+}
+
+.yes-btn:hover{
+    box-shadow: 0 0 45px rgb(0, 255, 0);
+    font-size: 60px;
+  
+}
+
+.no-btn:hover{
+    box-shadow: 0 0 45px rgb(255, 0, 0);
+    font-size: 60px;
+   
+}
+
+.yes-answ{
+    height: 1620px;
+    max-height: 3240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text2{
+    font-family: 'Neucha', cursive;  
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(235, 252, 0);
+    text-shadow:0 0 50px sandybrown;
+}
+
+
+.sad{
+    background-image: url('../images/IYJ5wJA.jpeg');
+    background-repeat: no-repeat; 
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+.no-answ{
+    height: 1620px;
+    max-height: 3240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text3{
+    font-family: 'Neucha', cursive;  
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(252, 0, 0);
+    text-shadow:0 0 50px rgb(244, 96, 96);
+}

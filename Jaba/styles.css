@@ -1,0 +1,91 @@
+
+.otd2{
+    max-width: 1500px;
+    max-height: 300px;
+    border: 0px ;
+ }
+ body { 
+     margin:0 auto;
+     background: linear-gradient(rgb(1, 104, 1),rgb(112, 255, 112), white); 
+     max-width: 1920px; 
+ }
+ 
+ img { 
+    display: inline-block;
+    vertical-align: bottom;
+    border-radius: 30px;
+     border: 10px rgb(231, 255, 97) solid;
+    max-width: 333px;
+    max-height: 222px;
+    margin-right: 10px;
+ }
+ 
+ 
+ #otd {
+      align-content: center;
+     margin: 0px;
+    padding: 0;
+    background-color: rgba(241, 0, 0, 0);
+    max-width: 1500px;
+    max-height: 2222px;
+     border: 0px ;
+ }
+   .vk {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    vertical-align: middle;
+    max-width: 1500px;
+    max-height: 300px;
+    border-style: none;
+    display: inline-block;
+    font-family: 'Caveat', cursive;
+    color: green;
+   }
+
+ .otd3{
+    max-width: 1500px;
+    max-height: 300px;
+    border-style: none;
+    display: inline-block;
+    vertical-align: middle;
+   margin-left:50px;
+   margin-top:-20px;
+   max-width: 155px;
+   max-height: 100px;
+ }
+ .goblin {
+     margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    vertical-align: middle;
+    max-width: 1500px;
+    max-height: 300px;
+    border-style: none;
+    display: inline-block;
+    font-family: 'Caveat', cursive;
+    color: rgb(255, 0, 149);
+   }
+   .opis {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 2em;
+   vertical-align: middle;
+   max-width: 1500px;
+   max-height: 300px;
+   border-style: none;
+   display: inline-block;
+   font-family: 'Caveat', cursive;
+   color: rgb(0, 0, 0);
+  }
+ a{font-weight: bold;
+    text-decoration: none;
+color: rgb(0, 89, 255);}
+ a:visited{color: rgb(0, 27, 77);}
+ a[href^="https://"] {border-style: none;}
+ 
+ a:hover {
+    color: rgb(0, 83, 21);
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: #6E97BF;
+}
+
+
