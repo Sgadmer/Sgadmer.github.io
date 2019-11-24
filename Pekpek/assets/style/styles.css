@@ -1,11 +1,16 @@
+body{
+    background:black;
+
+}
+
+
 .happy{
     background-image: url('../images/HAPPY-PEKPEK.jpg');
      background-repeat: no-repeat; 
      background-position: top center;
      background-attachment: fixed;
      background-size: 100%;
-     border-bottom: 20px solid sandybrown;
-     border-image-slice: 1;
+     border-bottom: 20px solid rgba(244, 165, 96, 0.733);
 }
 
 .qestuon{
@@ -26,11 +31,11 @@
     font-weight: bold;
     font-size: 50px;
     color: royalblue;
+    text-align: center;
 }
 
 .line{
     border-bottom:5px solid pink;
-    width: 100%;
 }
 
 .answer{
@@ -81,6 +86,8 @@
    
 }
 
+/* -------------------------------------------- */
+
 .yes-answ{
     height: 1620px;
     max-height: 3240px;
@@ -88,6 +95,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top:60px;
 }
 
 .text2{
@@ -99,6 +107,103 @@
 }
 
 
+/* ------------------------------------------- */
+
+
+.types-of-parrots{
+    background-color: rgb(248, 227, 180);
+    border-bottom: 20px solid rgba(244, 165, 96, 0.733);
+}
+
+.text3{
+    font-family: 'Neucha', cursive;  
+    font-weight: bold;
+    font-size: 100px;
+    color: royalblue;
+    text-align: center;
+    padding-top:20px;
+}
+
+.types{
+    margin-top:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-img{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:100px solid rgba(250, 183, 125, 0.616);
+}
+
+
+.right-img{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border-bottom:100px solid rgba(250, 183, 125, 0.616);
+}
+
+.picture{
+    border-radius: 40%;
+    max-width:789px;
+    max-height: 789px;
+    min-width: 50%;
+}
+
+.right-text{
+    max-height:789px;
+    padding-top:10%;
+}
+
+.left-text{
+    max-height:789px;
+    padding-top:10%;
+    padding-left:150px;
+}
+
+.head-text4{
+    font-family: 'Neucha', cursive;  
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(221, 44, 103);
+    margin-bottom:30px;
+}
+
+
+.text4{
+    font-family: 'Neucha', cursive;  
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(228, 93, 138);
+    margin-bottom:30px;
+}
+
+.text-banana{
+    color:rgb(255, 255, 0);
+    text-shadow:0 0 20px black;
+}
+
+.text-green{
+    color:rgb(6, 177, 0);
+    text-shadow:0 0 20px rgb(115, 255, 0);
+}
+/* ------------------------------------------ */
+
+
+.before-final{
+    padding-top:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 600px;
+}
+
+
+/* -------------------------------------------*/
 .sad{
     background-image: url('../images/IYJ5wJA.jpeg');
     background-repeat: no-repeat; 
@@ -109,7 +214,7 @@
 
 
 .no-answ{
-    height: 1620px;
+    height: 1050px;
     max-height: 3240px;
     text-align: center;
     display: flex;
@@ -117,10 +222,38 @@
     justify-content: center;
 }
 
-.text3{
+.text5{
     font-family: 'Neucha', cursive;  
     font-weight: bold;
-    font-size: 100px;
+    font-size: 200px;
     color: rgb(252, 0, 0);
     text-shadow:0 0 50px rgb(244, 96, 96);
+}
+
+/* -------------------------------------------- */
+
+.footer{
+    border-top:6px dotted rgba(184, 137, 184, 0.733);
+}
+
+.footer-center{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text{
+    text-align: center;
+    color:royalblue;
+    font-size: 30px;
+}
+
+.footer-text:hover{
+    color:rosybrown;
+    text-shadow:0 0 20px rgb(221, 185, 185);
+}
+
+.city-date-text{
+    color: rgb(84, 185, 224);
+    font-size: 25px;
+    text-shadow: rgb(71, 71, 71) 0 0 20px;
 }
