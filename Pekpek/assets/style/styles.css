@@ -257,3 +257,46 @@ body{
     font-size: 25px;
     text-shadow: rgb(71, 71, 71) 0 0 20px ;
 }
+
+/* ------------------MEDIA------------------------- */
+
+@media (max-width: 1300px) 
+{
+    .left-img, .right-img{
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .picture{
+       height:398px;
+   }
+
+    .left-text{
+        padding:0;
+    }
+
+    .yes-answ, .no-answ{
+       margin:0;
+       height:500px; 
+    }
+
+    .text,.text1, .text2, .text3, .text4, .head-text4, .text5, .text-green, .text-banana{
+        font-size:30px;
+    }
+
+    .left-text{
+        padding-top: 98px;
+    }
+
+    .sad{
+        background-position: bottom center;
+    }
+
+    .left-img, .right-img{
+        border-bottom: 30px solid rgba(250, 183, 125, 0.616);
+    }
+
+    .before-final{
+        margin-bottom: 300px;
+    }
+}
