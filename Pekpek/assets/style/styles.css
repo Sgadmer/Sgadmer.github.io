@@ -19,6 +19,8 @@ body{
     justify-content: center;
     text-align: center;
     border-radius: 0 0 70% 70%;
+
+    
 }
 
 .layout-center{
@@ -57,6 +59,7 @@ body{
     font-weight: bold;
     font-size: 50px;
     color: rgb(0, 92, 40);
+    transition:   ease-out 0.5s;
 }
 
 .no-btn{
@@ -72,12 +75,13 @@ body{
     font-size: 50px;
     color:rgb(83, 0, 0);
     margin-left:10px;
+    transition:   ease-out 0.5s;
 }
 
 .yes-btn:hover{
     box-shadow: 0 0 45px rgb(0, 255, 0);
     font-size: 60px;
-  
+    
 }
 
 .no-btn:hover{
@@ -268,7 +272,8 @@ body{
     }
 
    .picture{
-       height:398px;
+       height:50%;
+       width: 50%;
    }
 
     .left-text{
@@ -279,9 +284,30 @@ body{
        margin:0;
        height:500px; 
     }
+    .yes-answ{
+        background-image: url('../images/HAPPY-PEKPEK.jpg');
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .no-answ{
+        background-image: url('../images/IYJ5wJA.jpeg');
+        background-attachment: scroll;
+        background-repeat: no-repeat; 
+        background-size: 100%;
+    }
+
+    .happy, .sad{
+        background: none;
+    }
+
+    .qestuon{
+        border-radius: 0;
+    }
 
     .text,.text1, .text2, .text3, .text4, .head-text4, .text5, .text-green, .text-banana{
-        font-size:30px;
+        font-size:60px;
     }
 
     .left-text{
